@@ -1,0 +1,29 @@
+{
+  "name": "rpatch",
+  "version": "0.0.0",
+  "description": "JSON-Patch implementation base on [Fast-Json-Patch](https://github.com/Starcounter-Jack/JSON-Patch) with a redis backend.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sailxjx/rpatch.git"
+  },
+  "keywords": [
+    "json-patch"
+  ],
+  "author": "sailxjx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sailxjx/rpatch/issues"
+  },
+  "devDependencies": {
+    "should": "~2.1.1",
+    "cake-dog": "~0.2.3",
+    "mocha": "~1.15.1"
+  }
+}
